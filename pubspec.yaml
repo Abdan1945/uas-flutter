@@ -1,0 +1,39 @@
+name: uas_abdan_xiirpl3
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.3
+  http: ^1.6.0
+  flutter_native_splash: ^2.4.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+  # 1. TAMBAHKAN PACKAGE INI DI SINI
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+  # 2. (Opsional) Jika punya aset gambar lain, daftarkan di sini nanti
+  # assets:
+  #   - assets/icon_app.png
+
+# 3. TAMBAHKAN KONFIGURASI INI DI PALING BAWAH FILE
+flutter_launcher_icons:
+  image_path: "assets/icon/logo.jfif" # Pastikan file gambarmu ada di folder assets/ dengan nama ini
+  android: "launcher_icon"
+  ios: true
+  min_sdk_android: 21
